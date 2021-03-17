@@ -26,8 +26,8 @@ const Shop = () => {
 
             return product;
         })
+        console.log(productKeys);
 
-        setCount(previousCart)
     }, [])
 
     const handleAddProduct = (pd) => {
